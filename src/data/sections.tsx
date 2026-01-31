@@ -86,6 +86,15 @@ export const sections: ReactElement[] = [
             <Paragraph>
                 Mathematics is the language of the universe. From the spirals of galaxies to the patterns in a sunflower, numbers and shapes reveal the hidden order in nature. Let's explore these fascinating connections together!
             </Paragraph>
+            <Paragraph>
+                Have you ever wondered why honeybees build hexagonal cells? It turns out hexagons are the most efficient shape for storing honey — they use the least amount of wax while maximizing space. Nature discovered this optimization millions of years before humans!
+            </Paragraph>
+            <Paragraph>
+                The Fibonacci sequence appears everywhere in nature: the arrangement of leaves on a stem, the spiral of a nautilus shell, and even the branching of trees. Each number is the sum of the two before it: 1, 1, 2, 3, 5, 8, 13, 21...
+            </Paragraph>
+            <Paragraph>
+                Pi is perhaps the most famous number in mathematics. This infinite, non-repeating decimal connects a circle's circumference to its diameter. Ancient civilizations approximated pi thousands of years ago, and mathematicians continue to calculate more digits today — currently over 100 trillion!
+            </Paragraph>
         </Section>
     </FullWidthLayout>
 ];
