@@ -114,7 +114,7 @@ export const sections: ReactElement[] = [
                 <EditableText sectionId="test-paragraph" as="div">
                     <InteractiveParagraph>
                         The <InteractiveText id="fibonacci">Fibonacci sequence</InteractiveText>{' '}
-                        appears everywhere in nature: the arrangement of leaves on a stem, the{' '}
+                        everywhere in nature: the arrangement of leaves on a stem, the{' '}
                         <InteractiveText id="spiral">spiral of a nautilus shell</InteractiveText>,
                         and even the branching of trees. If you start with{' '}
                         <InlineStepper initialValue={1} min={1} max={10} color="#10b981" />{' '}
