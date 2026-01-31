@@ -131,7 +131,7 @@ export const sections: ReactElement[] = [
                         <InteractiveText id="circle">circle's circumference</InteractiveText>{' '}
                         to its diameter. If a circle has a diameter of{' '}
                         <InlineStepper initialValue={10} min={1} max={100} color="#8b5cf6" />{' '}
-                        units, its circumference is approximately{' '}
+                        units, its is approximately{' '}
                         <InlineStepper initialValue={31} min={3} max={314} color="#3b82f6" />{' '}
                         units. Ancient civilizations approximated pi thousands of years ago, and mathematicians continue to calculate more digits today — currently over 100 trillion!
                     </InteractiveParagraph>
