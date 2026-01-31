@@ -91,6 +91,8 @@ export const sections: ReactElement[] = [
                 'pi': { color: '#8b5cf6', underline: 'dotted' },
                 'spiral': { color: '#ec4899', underline: 'dotted' },
                 'circle': { color: '#3b82f6', underline: 'dotted' },
+                'golden': { color: '#eab308', underline: 'dotted' },
+                'rectangle': { color: '#06b6d4', underline: 'dotted' },
             }}>
                 <InteractiveParagraph>
                     Mathematics is the language of the universe. From the{' '}
@@ -126,6 +128,21 @@ export const sections: ReactElement[] = [
                     units, its circumference is approximately{' '}
                     <InlineStepper initialValue={31} min={3} max={314} color="#3b82f6" />{' '}
                     units. Ancient civilizations approximated pi thousands of years ago, and mathematicians continue to calculate more digits today — currently over 100 trillion!
+                </InteractiveParagraph>
+
+                <InteractiveParagraph>
+                    The <InteractiveText id="golden">Golden Ratio (φ ≈ 1.618)</InteractiveText>{' '}
+                    is deeply connected to the <InteractiveText id="fibonacci">Fibonacci sequence</InteractiveText>.
+                    If you divide any Fibonacci number by the one before it, as the numbers grow, the ratio approaches{' '}
+                    <InlineStepper initialValue={1.618} min={1} max={2} step={0.001} color="#eab308" formatValue={(v) => v.toFixed(3)} />.
+                    This ratio appears in art, architecture, and nature — from the{' '}
+                    <InteractiveText id="spiral">spiral arms of hurricanes</InteractiveText>{' '}
+                    to the proportions of a{' '}
+                    <InteractiveText id="rectangle">perfect rectangle</InteractiveText>{' '}
+                    that feels naturally pleasing to the eye. A golden rectangle has a width-to-height ratio of about{' '}
+                    <InlineStepper initialValue={16} min={10} max={20} color="#06b6d4" />{' '}
+                    to{' '}
+                    <InlineStepper initialValue={10} min={5} max={15} color="#06b6d4" />.
                 </InteractiveParagraph>
             </InteractiveHighlightProvider>
         </Section>
