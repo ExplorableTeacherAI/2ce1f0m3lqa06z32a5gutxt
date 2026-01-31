@@ -1,6 +1,7 @@
 import { type ReactElement } from "react";
-// import { Section } from "@/components/templates";
-// import { FullWidthLayout, SplitLayout, GridLayout, SidebarLayout, Sidebar, Main } from "@/components/layouts";
+import { Section } from "@/components/templates";
+import { FullWidthLayout } from "@/components/layouts";
+import { Paragraph } from "@/components/molecules/Paragraph";
 
 // Initialize variables from this file's variable definitions
 import { useVariableStore } from "@/stores";
@@ -80,15 +81,11 @@ useVariableStore.getState().initialize(getDefaultValues());
  */
 
 export const sections: ReactElement[] = [
-    // Start adding your sections here!
-
-    // Example:
-    /*
-    <FullWidthLayout key="welcome" maxWidth="xl">
-        <Section id="welcome-message">
-            <h1 className="text-4xl font-bold">Welcome to MathVibe</h1>
-            <p className="mt-4 text-xl text-muted-foreground">Start building your interactive lesson.</p>
+    <FullWidthLayout key="test-section" maxWidth="xl">
+        <Section id="test-paragraph">
+            <Paragraph>
+                Mathematics is the language of the universe. From the spirals of galaxies to the patterns in a sunflower, numbers and shapes reveal the hidden order in nature. Let's explore these fascinating connections together!
+            </Paragraph>
         </Section>
     </FullWidthLayout>
-    */
 ];
