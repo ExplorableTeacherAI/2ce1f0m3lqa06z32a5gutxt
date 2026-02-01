@@ -127,7 +127,7 @@ export const sections: ReactElement[] = [
                 <EditableText sectionId="test-paragraph" as="div">
                     <InteractiveParagraph>
                         <InteractiveText id="pi">Pi (π)</InteractiveText>{' '}
-                        is perhaps the most famous number in mathematics. This  , non-repeating decimal connects a{' '}
+                        is perhaps the most famous number in mathematics. This  non-repeating decimal connects a{' '}
                         <InteractiveText id="circle">circle's circumference</InteractiveText>{' '}
                         to its diameter. If a circle has a diameter of{' '}
                         <InlineStepper initialValue={10} min={1} max={100} color="#8b5cf6" />{' '}
