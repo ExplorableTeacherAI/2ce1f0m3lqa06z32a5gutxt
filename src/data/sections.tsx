@@ -134,7 +134,7 @@ export const sections: ReactElement[] = [
                         units, its is  {' '}
                         <InlineStepper initialValue={31} min={3} max={314} color="#3b82f6" />{' '}
                         units. Ancient civilizations approximated pi thousands of years ago, and mathematicians continue to calculate more digits today — currently over 100 trillion!
-                    </InteractiveParagraph>
+                    hi</InteractiveParagraph>
                 </EditableText>
             </InteractiveHighlightProvider>
         </Section>
